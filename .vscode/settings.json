@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "configs/": true,
+    ".github/": true,
+    ".devcontainer/": true,
+    ".vscode/": true,
+    "output/": true,
+    "src/": true,
+    "tools/": true,
+    "SUMMARY.md": true,
+    "valmis.sh": true,
+    "harjoitus.py": true,
+    "harjoitus.pyc": true,
+    "requirements.txt": true,
+    "README.md": true,
+    ".gitignore": true,
+    "**/__pycache__": true
+  },
+  "workbench.startupEditor": "readme",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "task.allowAutomaticTasks": "on"
+}

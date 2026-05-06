@@ -1,0 +1,46 @@
+{
+  "name": "LinuxCLI grep -harjoitus",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.chat.enabled": false,
+        "chat.disableAIFeatures": true,
+        "chat.commandCenter.enabled": false,
+        "chat.agent.enabled": false,
+        "workbench.secondarySideBar.defaultVisibility": "hidden",
+        "workbench.auxiliaryActivityBar.enabled": false,
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false,
+        "extensions.ignoreRecommendations": true,
+        "extensions.allowed": {
+          "GitHub.copilot": false,
+          "GitHub.copilot-chat": false,
+          "GitHub.copilot-labs": false,
+          "Anthropic.claude-dev": false,
+          "anthropic.claude-code": false,
+          "saoudrizwan.claude-dev": false,
+          "Codeium.codeium": false,
+          "Codeium.codeium-enterprise-updater": false,
+          "sourcegraph.cody-ai": false,
+          "continue.continue": false,
+          "TabNine.tabnine-vscode": false,
+          "Supermaven.supermaven": false,
+          "Blackboxapp.blackbox": false,
+          "Blackboxapp.blackboxagent": false,
+          "AmazonWebServices.aws-toolkit-vscode": false,
+          "rooveterinaryinc.roo-cline": false,
+          "kilocode.kilo-code": false,
+          "google.geminicodeassist": false
+        },
+        "workbench.startupEditor": "readme",
+        "task.allowAutomaticTasks": "on"
+      },
+      "extensions": []
+    }
+  }
+}
